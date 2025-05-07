@@ -1,0 +1,30 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "59844386-7fd7-4bb9-9863-f717605a8da8")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "VCO_OUT"
+		(shape output)
+		(at 64.77 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2687fa1e-878b-49e3-b14c-88c1acc6945f")
+	)
+	(hierarchical_label "VCO_IN"
+		(shape input)
+		(at 57.15 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1ff0e20-dd57-4170-bee6-798c0c1e4384")
+	)
+)

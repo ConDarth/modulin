@@ -1,0 +1,41 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "dfc46179-223a-4bdb-9a3f-069fbeac9f5c")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "CV"
+		(shape input)
+		(at 64.77 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "38d49a83-2c1e-402a-88ac-0f6e8c45b310")
+	)
+	(hierarchical_label "VCF_IN"
+		(shape input)
+		(at 66.04 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "579d0545-d21e-483c-b4f8-b8ba15ba699b")
+	)
+	(hierarchical_label "VCF_OUT"
+		(shape output)
+		(at 82.55 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "762737de-d13e-422d-b04a-82d3a1ebf1f2")
+	)
+)

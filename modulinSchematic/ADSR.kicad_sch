@@ -1,0 +1,30 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "38c00ad3-7cf7-4a76-a351-8182cfe533ce")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "ADSR_OUT"
+		(shape output)
+		(at 46.99 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2b2a3971-065e-4b27-a3c1-4ec17c4949c2")
+	)
+	(hierarchical_label "ADSR_IN"
+		(shape input)
+		(at 38.1 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3234c4ed-f97d-40d4-acbf-1cdf3f355f35")
+	)
+)
