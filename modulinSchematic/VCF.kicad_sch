@@ -5,7 +5,7 @@
 	(uuid "dfc46179-223a-4bdb-9a3f-069fbeac9f5c")
 	(paper "A4")
 	(lib_symbols)
-	(hierarchical_label "CV"
+	(hierarchical_label "CV_IN"
 		(shape input)
 		(at 64.77 38.1 180)
 		(effects
