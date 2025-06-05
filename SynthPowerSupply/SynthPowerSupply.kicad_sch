@@ -2032,6 +2032,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 124.46) (xy 182.88 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c913429-9848-424c-b4b1-4752de04ac54")
+	)
+	(wire
+		(pts
 			(xy 123.19 83.82) (xy 137.16 83.82)
 		)
 		(stroke
@@ -2322,6 +2332,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 124.46) (xy 157.48 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8aa00cb-9aa2-49a6-b2c6-381c105e9f98")
+	)
+	(wire
+		(pts
 			(xy 137.16 99.06) (xy 137.16 106.68)
 		)
 		(stroke
@@ -2349,6 +2369,16 @@
 			(type default)
 		)
 		(uuid "c2b14fe0-698f-4ab0-8d67-aaf249a4b5b0")
+	)
+	(wire
+		(pts
+			(xy 173.99 124.46) (xy 182.88 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caba33a2-6bcc-43f4-a1c2-8eb538abb33b")
 	)
 	(wire
 		(pts
@@ -2439,6 +2469,16 @@
 			(type default)
 		)
 		(uuid "ec7ca67d-16e4-4dbf-b7aa-0ac61f3ae64d")
+	)
+	(wire
+		(pts
+			(xy 166.37 124.46) (xy 157.48 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1d63740-c821-4f0c-9318-74c3c2f53ad3")
 	)
 	(wire
 		(pts
@@ -2736,7 +2776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
 			(at 137.16 110.49 0)
 			(effects
 				(font
@@ -3182,7 +3222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
 			(at 137.16 87.63 0)
 			(effects
 				(font
@@ -3461,6 +3501,91 @@
 			(project "SynthPowerSupply"
 				(path "/363663a4-7dd0-4c73-a57a-b99ce31fbb74"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 170.18 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "770e1014-eda9-4c8b-b55b-2cf36d714b91")
+		(property "Reference" "D4"
+			(at 170.18 127.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 170.18 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 170.18 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 170.18 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
+			(at 170.18 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 170.18 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 170.18 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6c65864-392a-4d56-b6e4-6f7743f647da")
+		)
+		(pin "2"
+			(uuid "9427acf8-145a-46ee-878b-2547e7d5e281")
+		)
+		(instances
+			(project "SynthPowerSupply"
+				(path "/363663a4-7dd0-4c73-a57a-b99ce31fbb74"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -3837,7 +3962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
 			(at 123.19 58.42 0)
 			(effects
 				(font
@@ -4129,7 +4254,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
 			(at 123.19 110.49 0)
 			(effects
 				(font
@@ -4199,7 +4324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
 			(at 109.22 87.63 0)
 			(effects
 				(font
@@ -4269,7 +4394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
 			(at 123.19 87.63 0)
 			(effects
 				(font
@@ -4827,7 +4952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
 			(at 137.16 58.42 0)
 			(effects
 				(font
@@ -4897,7 +5022,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
 			(at 109.22 110.49 0)
 			(effects
 				(font
@@ -4967,7 +5092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
 			(at 109.22 58.42 0)
 			(effects
 				(font
