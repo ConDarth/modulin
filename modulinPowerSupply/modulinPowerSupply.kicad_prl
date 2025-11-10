@@ -49,7 +49,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff7_ffffffde",
+    "visible_layers": "ffffffff_ffffffff_fffffff7_fffffffe",
     "zone_display_mode": 0
   },
   "git": {
@@ -58,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "SynthPowerSupply.kicad_prl",
+    "filename": "modulinPowerSupply.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
