@@ -1,1 +1,5 @@
-# modulin
+# Modulin
+
+This repository holds all data for th modulin I am building. The concept behind this design is to make a fully analog synthesizer using only standard components, with a fun control system based on a violin. This project is mostly based on a design Martin Molin of Wintergatan. An explanation of his design can be found [here](https://www.youtube.com/watch?v=MUdWeBYe3GY). 
+
+My goal in improving this design is to make it more accessible. His design uses 9 or so prebuilt modules meant for modular synthesizers, each of which costs in the range of 70$+ making the instrument quite expensive for a diy build. I took inspiration from the modular synth DIY community to instead try and build the necessary modules from scratch using only much cheaper standard electronics components. The components I am limiting myself to are resistors, capacitors, inductors/transformers, diodes, transistors (both BJT and FET), op amps and linear voltage regulators. 
