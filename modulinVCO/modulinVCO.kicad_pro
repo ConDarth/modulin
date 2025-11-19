@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 1.016,
+          "height": 1.7272,
+          "width": 1.7272
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "modulinEnvelope.kicad_pro",
+    "filename": "modulinVCO.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -487,7 +487,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "D:/Modulin/Envelope/",
+      "plot": "D:/modulinVCO/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -611,7 +611,7 @@
   },
   "sheets": [
     [
-      "efb82606-78cb-466a-8666-7fc27cb05238",
+      "0ae5510e-7c55-4d93-abc7-ef6db8a5557f",
       "Root"
     ]
   ],
