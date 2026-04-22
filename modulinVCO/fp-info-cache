@@ -1,4 +1,4 @@
-26441497677382791
+26447037946313396
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104213,7 +104213,7 @@ Potentiometer_PanelMount_CNC
 http://www.ttelectronics.com/sites/default/files/download-files/Datasheet_PanelPot_P09xSeries.pdf
 potentiometer vertical TT P0915N single
 0
-10
+9
 4
 User
 Potentiometer_Trim_CNC
@@ -104272,7 +104272,14 @@ Resistor Axial_DIN0207 series Axial Horizontal pin pitch 15.24mm 0.25W = 1/4W le
 2
 2
 User
-SW_Slide_SPST_H6.00mm_CNC
+SW_Slide_SP4T_H6.00mm_CNC
+CuK miniature slide switch, OS series, SPDT, https://www.ckswitches.com/media/1428/os.pdf
+switch SPDT
+0
+10
+5
+User
+SW_Slide_SPDT_H6.00mm_CNC
 CuK miniature slide switch, OS series, SPDT, https://www.ckswitches.com/media/1428/os.pdf
 switch SPDT
 0
@@ -104307,12 +104314,26 @@ THT terminal block MaiXu MX126-5.0-03P pitch 5mm size 15.5x7.8mm drill 1.3mm pad
 6
 3
 User
+TerminalBlock_1x5_CNC
+terminal block MaiXu MX126-5.0-05P, 5 pins, pitch 5mm, size 25.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu
+THT terminal block MaiXu MX126-5.0-05P pitch 5mm size 25.5x7.8mm drill 1.3mm pad 2.8mm
+0
+10
+5
+User
 TerminalBlock_1x6_CNC
 terminal block MaiXu MX126-5.0-06P, 6 pins, pitch 5mm, size 30.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu
 THT terminal block MaiXu MX126-5.0-06P pitch 5mm size 30.5x7.8mm drill 1.3mm pad 2.8mm
 0
 12
 6
+User
+TerminalBlock_1x7_CNC
+terminal block MaiXu MX126-5.0-07P, 7 pins, pitch 5mm, size 35.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu
+THT terminal block MaiXu MX126-5.0-07P pitch 5mm size 35.5x7.8mm drill 1.3mm pad 2.8mm
+0
+14
+7
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
