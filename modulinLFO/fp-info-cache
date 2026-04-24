@@ -1,4 +1,4 @@
-26445047965082056
+26447038118427054
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104213,7 +104213,7 @@ Potentiometer_PanelMount_CNC
 http://www.ttelectronics.com/sites/default/files/download-files/Datasheet_PanelPot_P09xSeries.pdf
 potentiometer vertical TT P0915N single
 0
-10
+9
 4
 User
 Potentiometer_Trim_CNC
@@ -104327,6 +104327,13 @@ THT terminal block MaiXu MX126-5.0-06P pitch 5mm size 30.5x7.8mm drill 1.3mm pad
 0
 12
 6
+User
+TerminalBlock_1x7_CNC
+terminal block MaiXu MX126-5.0-07P, 7 pins, pitch 5mm, size 35.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu
+THT terminal block MaiXu MX126-5.0-07P pitch 5mm size 35.5x7.8mm drill 1.3mm pad 2.8mm
+0
+14
+7
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins

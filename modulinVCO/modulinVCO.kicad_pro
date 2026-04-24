@@ -37,7 +37,7 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.016,
+          "drill": 0.8128,
           "height": 1.7272,
           "width": 1.7272
         },
@@ -487,10 +487,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "D:/modulinVCO/",
+      "plot": "modulinVCOGerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "modulinVCO.step",
       "svg": "",
       "vrml": ""
     },

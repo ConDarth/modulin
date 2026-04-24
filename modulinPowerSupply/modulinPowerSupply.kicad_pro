@@ -453,6 +453,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -470,7 +471,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.8128,
+        "clearance": 0.508,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -481,7 +482,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.762,
+        "track_width": 1.016,
         "via_diameter": 1.7272,
         "via_drill": 0.8128,
         "wire_width": 6
@@ -499,10 +500,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "D:/Modulin/PSU/",
+      "plot": "modulinPowerSupplyGerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "modulinPowerSupply.step",
       "svg": "",
       "vrml": ""
     },

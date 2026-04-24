@@ -5564,15 +5564,15 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 163.83 73.66 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "66898b29-d0bf-44cb-972b-69990c6c4679")
 		(property "Reference" "RV5"
-			(at 161.29 72.3899 0)
+			(at 161.29 74.9301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5581,7 +5581,7 @@
 			)
 		)
 		(property "Value" "B100k"
-			(at 161.29 74.9299 0)
+			(at 161.29 72.3901 0)
 			(effects
 				(font
 					(size 1.27 1.27)

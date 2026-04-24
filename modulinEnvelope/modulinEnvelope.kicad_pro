@@ -487,10 +487,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerberEnvelope/",
+      "plot": "modulinEnvelopeGerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "modulinEnvelope.step",
       "svg": "",
       "vrml": ""
     },
