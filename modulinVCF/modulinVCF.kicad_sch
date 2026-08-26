@@ -10830,16 +10830,16 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL072")
-		(at 259.08 50.8 180)
+		(at 259.08 50.8 0)
+		(mirror y)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c7386d99-dc47-44a6-a2b4-afecd7cea8e8")
 		(property "Reference" "U4"
-			(at 262.89 49.5299 0)
+			(at 262.89 52.0701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10848,7 +10848,7 @@
 			)
 		)
 		(property "Value" "TL072"
-			(at 262.89 52.0699 0)
+			(at 262.89 49.5301 0)
 			(effects
 				(font
 					(size 1.27 1.27)

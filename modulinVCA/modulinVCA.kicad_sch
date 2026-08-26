@@ -3885,7 +3885,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "B1M"
+		(property "Value" "B500k"
 			(at 132.08 59.6901 0)
 			(effects
 				(font
